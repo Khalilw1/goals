@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	font-family: "Consolas" !important;
+}
+
+.container {
+	width: 480px;
+	margin: 20px auto;
+	/*padding: 10px;*/
+	/*border: 2px solid #2ddfdc;*/
+
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.io {
+	margin-bottom: 10px;
+}
+
+.crossed {
+	color: #b1ad92;
+}
+
+.right {
+	float: right;
+	line-height: 14px;
+	vertical-align: middle;
+}
+
+.floated, .inside {
+    width:14px;
+    height:14px;
+    text-align:center;
+    float: right;
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+.inside { 
+    float:none;
+    border:none;
+    margin:0;
+}
