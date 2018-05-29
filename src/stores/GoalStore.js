@@ -1,5 +1,5 @@
-import { observable, computed, reaction }   from "mobx";
-import GoalModel				            from '../models/GoalModel';
+import { observable, computed, reaction } from "mobx";
+import GoalModel from '../models/GoalModel';
 
 class GoalStore {
 	@observable goals = [];

@@ -1,7 +1,7 @@
 import React, { Component }	from "react";
-import ReactDOM				from "react-dom"
-import { observer } 		from "mobx-react"; 
-import Goal 				from "./Goal";
+import ReactDOM	from "react-dom"
+import { observer } from "mobx-react"; 
+import Goal from "./Goal";
 
 import { Input, Tabs }			from "antd";
 
