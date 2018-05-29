@@ -17,7 +17,6 @@ class GoalStore {
     }
 
     toJS() {
-        // this function converts our goal states into JSON type object to be saved in localstorage
         return this.goals.map(goal => goal.toJS());
     }
 
