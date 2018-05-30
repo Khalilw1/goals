@@ -1,38 +1,35 @@
 body {
-	margin: 0;
-	font-family: "Consolas" !important;
+  margin: 0;
 }
 
 .container {
-	width: 480px;
-	margin: 20px auto;
-	/*padding: 10px;*/
-	/*border: 2px solid #2ddfdc;*/
+  width: 480px;
+  margin: 20px auto;
 
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .io {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .crossed {
-	color: #b1ad92;
+  color: #b1ad92;
 }
 
 .right {
-	float: right;
-	line-height: 14px;
-	vertical-align: middle;
+  float: right;
+  line-height: 14px;
+  vertical-align: middle;
 }
 
 .floated, .inside {
-    width:14px;
-    height:14px;
-    text-align:center;
-    float: right;
-    vertical-align:middle;
-    cursor: pointer;
+  width:14px;
+  height:14px;
+  text-align:center;
+  float: right;
+  vertical-align:middle;
+  cursor: pointer;
 }
 
 .inside { 
